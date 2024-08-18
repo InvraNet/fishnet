@@ -1,0 +1,14 @@
+/home/invranet/fishing/bin/Debug/net8.0/fishing
+/home/invranet/fishing/bin/Debug/net8.0/fishing.deps.json
+/home/invranet/fishing/bin/Debug/net8.0/fishing.runtimeconfig.json
+/home/invranet/fishing/bin/Debug/net8.0/fishing.dll
+/home/invranet/fishing/bin/Debug/net8.0/fishing.pdb
+/home/invranet/fishing/obj/Debug/net8.0/fishing.GeneratedMSBuildEditorConfig.editorconfig
+/home/invranet/fishing/obj/Debug/net8.0/fishing.AssemblyInfoInputs.cache
+/home/invranet/fishing/obj/Debug/net8.0/fishing.AssemblyInfo.cs
+/home/invranet/fishing/obj/Debug/net8.0/fishing.csproj.CoreCompileInputs.cache
+/home/invranet/fishing/obj/Debug/net8.0/fishing.dll
+/home/invranet/fishing/obj/Debug/net8.0/refint/fishing.dll
+/home/invranet/fishing/obj/Debug/net8.0/fishing.pdb
+/home/invranet/fishing/obj/Debug/net8.0/fishing.genruntimeconfig.cache
+/home/invranet/fishing/obj/Debug/net8.0/ref/fishing.dll

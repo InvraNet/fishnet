@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "73J03W6qu4w=",
+  "success": true,
+  "projectFilePath": "/home/invranet/fishing/fishing.csproj",
+  "expectedPackageFiles": [
+    "/home/invranet/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.8/microsoft.aspnetcore.app.ref.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
