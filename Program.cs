@@ -55,6 +55,10 @@ class Program
         {
             Stats();
         }
+        else if (args[0] == "sportsbet") 
+        {
+            theChancesAreYouAreAboutToLoose();
+        }
         else
         {
             Console.WriteLine("The command specified does not exist.");
@@ -162,6 +166,44 @@ class Program
                 inventory = saveData.Inventory ?? new List<string>();
                 money = saveData.Money;
             }
+        }
+    }
+
+
+    static void theChancesAreYouAreAboutToLoose()
+    {
+        Console.WriteLine("Enter amount to bet (or maybe win):");
+        string amountToBet = Console.ReadLine();
+        decimal amount = 0;
+
+        bool isValidAmount = decimal.TryParse(amountToBet, out amount);
+        if (isValidAmount && amount > 0)
+        {
+            if (amount > money)
+            {
+                Console.WriteLine("You don't have enough money to place that bet.");
+            }
+            else
+            {
+                Random rand = new Random();
+                bool won = rand.Next(2) == 0;
+
+                if (won)
+                {
+                    decimal winnings = amount * 2;
+                    money += winnings;
+                    Console.WriteLine($"Congratulations! You won ${winnings:F2}. Your new balance is ${money:F2}.");
+                }
+                else
+                {
+                    money -= amount;
+                    Console.WriteLine($"Sorry, you lost ${amount:F2}. Your new balance is ${money:F2}.");
+                }
+            }
+        }
+        else
+        {
+            Console.WriteLine("Invalid input. Please enter a positive number.");
         }
     }
 

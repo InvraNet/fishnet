@@ -12,3 +12,4 @@
 /home/invranet/fishing/obj/Debug/net8.0/fishing.pdb
 /home/invranet/fishing/obj/Debug/net8.0/fishing.genruntimeconfig.cache
 /home/invranet/fishing/obj/Debug/net8.0/ref/fishing.dll
+/home/invranet/fishing/obj/Debug/net8.0/fishing.sourcelink.json
